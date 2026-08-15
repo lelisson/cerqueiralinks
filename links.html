@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cerqueira Souza — Contatos</title>
+  <style>
+    :root {
+      --dark: #0B3D2E;
+      --mid: #0F4D3A;
+      --bright: #22C55E;
+      --bg: #f4f7f5;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background:
+        radial-gradient(1200px 600px at 10% -10%, #d8efe4 0%, transparent 55%),
+        radial-gradient(900px 500px at 100% 0%, #e7f6ec 0%, transparent 50%),
+        var(--bg);
+      color: var(--dark);
+      display: flex; align-items: center; justify-content: center;
+      padding: 28px 16px;
+    }
+    .wrap { width: 100%; max-width: 420px; text-align: center; }
+    .mark {
+      width: 88px; height: 88px; margin: 0 auto 14px;
+      border-radius: 22px; background: var(--dark);
+      display: grid; place-items: center;
+      color: #fff; font-weight: 800; font-size: 28px; letter-spacing: -1px;
+    }
+    h1 { margin: 0; font-size: 1.35rem; letter-spacing: 0.04em; }
+    h1 span { color: var(--bright); }
+    p.sub {
+      margin: 8px 0 22px; font-size: 0.78rem; color: #4d655b;
+      text-transform: uppercase; letter-spacing: 0.06em; line-height: 1.45;
+    }
+    a.btn {
+      display: flex; align-items: center; gap: 12px;
+      width: 100%; margin: 0 0 12px; padding: 14px 16px;
+      border-radius: 14px; text-decoration: none; color: var(--dark);
+      background: var(--card); border: 1px solid #d7e5de;
+      box-shadow: 0 8px 24px rgba(11,61,46,0.06);
+      font-weight: 650; font-size: 0.98rem;
+      transition: transform .15s ease, border-color .15s ease;
+    }
+    a.btn:hover { transform: translateY(-1px); border-color: var(--bright); }
+    .ico {
+      width: 38px; height: 38px; border-radius: 10px;
+      display: grid; place-items: center; flex: 0 0 auto;
+      background: #e8f6ee; color: var(--mid); font-size: 1.05rem;
+    }
+    .meta { margin-left: auto; font-size: 0.75rem; color: #6a8076; font-weight: 500; }
+    footer { margin-top: 18px; font-size: 0.72rem; color: #6a8076; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="mark">CS</div>
+    <h1>CERQUEIRA <span>SOUZA</span></h1>
+    <p class="sub">Consultoria e Assessoria<br/>em Segurança do Trabalho</p>
+
+    <a class="btn" href="https://drive.google.com/file/d/17BfoWLbzmd8GjD4WTpBhv4bhLmkp21Eu/view?usp=sharing" target="_blank" rel="noopener">
+      <span class="ico">📁</span> Portfólio
+      <span class="meta">Abrir PDF</span>
+    </a>
+    <a class="btn" href="https://wa.me/5571997095944" target="_blank" rel="noopener">
+      <span class="ico">💬</span> WhatsApp
+      <span class="meta">(71) 99709-5944</span>
+    </a>
+    <a class="btn" href="https://instagram.com/cerqueirasouzaconsultoria" target="_blank" rel="noopener">
+      <span class="ico">📷</span> Instagram
+      <span class="meta">@cerqueirasouzaconsultoria</span>
+    </a>
+    <a class="btn" href="mailto:cerqueirasouzasst@gmail.com">
+      <span class="ico">✉️</span> E-mail
+      <span class="meta">cerqueirasouzasst@gmail.com</span>
+    </a>
+
+    <footer>Cerqueira Souza SST · Salvador/BA</footer>
+  </main>
+</body>
+</html>
